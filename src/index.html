@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windframe</title>
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+
+<body>
+    <header class="py-8 shadow-md">
+        <div class="container flex flex-col gap-6">
+            <div class="flex flex-row justify-between items-center">
+                <a href="#">
+                    <img src="/Images/windframe.png" alt="LOGO" class="w-10 h-10">
+                </a>
+                <button>
+                    <!-- hamburger -->
+                    <svg aria-label="Show navigation menu" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10" id="hamburger">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                    <!-- close -->
+                    <svg aria-label="Close navigation menu" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 hidden"
+                        id="close">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+
+            <nav role="navigation" aria-label="Main Menu" class="w-0 hidden" id="nav">
+                <ul class="flex flex-col gap-2">
+                    <li>
+                        <a href="#">Import</a>
+                    </li>
+                    <li>
+                        <a href="#">Blocks</a>
+                    </li>
+                    <li>
+                        <a href="#">FormBuilder</a>
+                    </li>
+                    <li>
+                        <a href="#">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Support</a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn">SignIn</a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn">SignUp</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="py-16">
+            <div class="container text-center">
+                <h1 class="text-3xl font-semibold text-gray-800  md:text-4xl md:max-3xl:">A better way to build websites
+                    and web apps frontend</h1>
+                <p class="text-gray-500 my-6 md:my-10 md:max-w-xl md:mx-auto">Windframe is a visual builder for rapidly
+                    prototyping and building stunning websites using tailwind css.Speed up your web development process
+                    and ship in minutes not weeks.</p>
+                <div class="w-full max-w-md flex flex-col gap-5 md:flex-row md:mx-auto">
+                    <a href="#" class="bg-gray-800 p-3  w-full rounded-lg text-white">Create a website</a>
+                    <a href="#" class="border-2 border-gray-800 p-3  w-full rounded-lg text-gary-800">Or book a demo</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
